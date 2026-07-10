@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Forno Rosso — Wood-Fired Pizza</title>
+<meta name="description" content="Forno Rosso: Neapolitan wood-fired pizza, hand-stretched daily, baked at 900°F in ninety seconds." />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="ember-field" aria-hidden="true" id="emberField"></div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">
+      <svg class="brand-mark" viewBox="0 0 60 60" aria-hidden="true">
+        <circle cx="30" cy="30" r="27" fill="#E0A93E"/>
+        <path d="M30 30 L30 4 A26 26 0 0 1 52 17 Z" fill="#C8461A"/>
+        <circle cx="24" cy="14" r="2.3" fill="#6B8E4E"/>
+        <circle cx="34" cy="10" r="2" fill="#F3E8D2"/>
+        <circle cx="41" cy="18" r="2.2" fill="#6B8E4E"/>
+      </svg>
+      <span>Forno Rosso</span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#menu">Menu</a>
+      <a href="#story">Our Story</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#order" class="nav-cta">Order</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">900°F &middot; 90 seconds &middot; oak-fired</p>
+        <h1>Pizza doesn't get<br><em>rushed.</em> It gets <em>fired.</em></h1>
+        <p class="hero-lead">Every dough at Forno Rosso rests for 48 hours, gets stretched by hand, and spends ninety seconds in an oak-fed oven hot enough to blister the crust before the cheese even thinks about burning.</p>
+        <div class="hero-actions">
+          <a href="#order" class="btn btn-primary">Order for pickup</a>
+          <a href="#menu" class="btn btn-ghost">See the menu</a>
+        </div>
+        <dl class="hero-stats">
+          <div><dt>48 hrs</dt><dd>dough ferment</dd></div>
+          <div><dt>900°F</dt><dd>oven floor temp</dd></div>
+          <div><dt>90 sec</dt><dd>bake time</dd></div>
+        </dl>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 420 420" class="oven-svg">
+          <ellipse cx="210" cy="390" rx="170" ry="18" fill="#0F0A08" opacity="0.5"/>
+          <path d="M40 380 V220 A170 170 0 0 1 380 220 V380 Z" fill="#3A2A20"/>
+          <path d="M60 380 V225 A150 150 0 0 1 360 225 V380 Z" fill="#241814"/>
+          <path d="M95 380 V235 A115 115 0 0 1 325 235 V380 Z" fill="#140C0A"/>
+          <path id="flameOuter" d="M210 360 C170 340 165 300 190 270 C185 300 205 305 205 285 C220 305 235 320 220 345 C245 330 250 305 240 280 C270 310 265 345 235 365 C260 355 260 335 250 320 C255 350 235 370 210 360 Z" fill="#F0632E"/>
+          <path id="flameInner" d="M210 355 C190 340 188 315 200 300 C198 315 210 318 210 305 C220 318 228 328 218 342 C232 334 235 318 228 305 C245 322 242 342 225 352 C238 347 238 335 232 326 C236 344 224 358 210 355 Z" fill="#F9B23C"/>
+          <g fill="#4A362A">
+            <rect x="150" y="392" width="14" height="14" rx="2"/>
+            <rect x="175" y="392" width="14" height="14" rx="2"/>
+            <rect x="200" y="392" width="14" height="14" rx="2"/>
+            <rect x="225" y="392" width="14" height="14" rx="2"/>
+            <rect x="250" y="392" width="14" height="14" rx="2"/>
+          </g>
+          <g class="smoke" opacity="0.55">
+            <circle cx="205" cy="230" r="6" fill="#EDE3D0"/>
+            <circle cx="195" cy="205" r="8" fill="#EDE3D0"/>
+            <circle cx="215" cy="175" r="10" fill="#EDE3D0"/>
+            <circle cx="200" cy="140" r="12" fill="#EDE3D0"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <svg class="crust-divider" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,20 Q30,0 60,18 T120,15 T180,25 T240,10 T300,22 T360,8 T420,20 T480,12 T540,24 T600,10 T660,18 T720,6 T780,20 T840,14 T900,26 T960,10 T1020,20 T1080,12 T1140,22 T1200,15 L1200,60 L0,60 Z" fill="#F3E8D2"/>
+    </svg>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu" id="menu">
+    <div class="wrap">
+      <p class="eyebrow eyebrow-dark">The board</p>
+      <h2 class="section-title">Four pizzas. Zero shortcuts.</h2>
+      <p class="section-lead">We keep the menu short so every pie gets the same attention. San Marzano tomatoes, fior di latte, and toppings from three farms within forty miles.</p>
+
+      <div class="menu-grid">
+
+        <article class="pizza-card">
+          <div class="pizza-plate">
+            <svg viewBox="0 0 240 240" aria-hidden="true">
+              <circle cx="120" cy="120" r="112" fill="#E9DCC3"/>
+              <circle cx="120" cy="120" r="98" fill="#E0A93E"/>
+              <circle cx="120" cy="120" r="90" fill="#C8461A"/>
+              <circle cx="120" cy="120" r="86" fill="#F3E8D2" opacity="0.92"/>
+              <g fill="#EFE0BE" opacity="0.8">
+                <circle cx="95" cy="95" r="16"/><circle cx="150" cy="105" r="20"/>
+                <circle cx="115" cy="150" r="18"/><circle cx="160" cy="150" r="14"/>
+                <circle cx="80" cy="140" r="12"/>
+              </g>
+              <g fill="#6B8E4E">
+                <ellipse cx="100" cy="80" rx="9" ry="6" transform="rotate(30 100 80)"/>
+                <ellipse cx="150" cy="90" rx="9" ry="6" transform="rotate(-20 150 90)"/>
+                <ellipse cx="120" cy="160" rx="9" ry="6" transform="rotate(60 120 160)"/>
+                <ellipse cx="75" cy="120" rx="9" ry="6" transform="rotate(10 75 120)"/>
+              </g>
+            </svg>
+          </div>
+          <div class="pizza-info">
+            <div class="pizza-heading"><h3>Margherita</h3><span class="price">$16</span></div>
+            <p>San Marzano tomato, fior di latte, basil, olive oil, sea salt.</p>
+          </div>
+        </article>
+
+        <article class="pizza-card">
+          <div class="pizza-plate">
+            <svg viewBox="0 0 240 240" aria-hidden="true">
+              <circle cx="120" cy="120" r="112" fill="#E9DCC3"/>
+              <circle cx="120" cy="120" r="98" fill="#E0A93E"/>
+              <circle cx="120" cy="120" r="90" fill="#C8461A"/>
+              <circle cx="120" cy="120" r="86" fill="#E6603A" opacity="0.95"/>
+              <g fill="#8C2A12">
+                <circle cx="95" cy="90" r="14"/><circle cx="140" cy="85" r="14"/>
+                <circle cx="165" cy="120" r="14"/><circle cx="145" cy="155" r="14"/>
+                <circle cx="100" cy="150" r="14"/><circle cx="75" cy="120" r="14"/>
+                <circle cx="120" cy="120" r="14"/>
+              </g>
+              <g fill="#F4C97A" opacity="0.6">
+                <circle cx="95" cy="90" r="4"/><circle cx="140" cy="85" r="4"/>
+                <circle cx="165" cy="120" r="4"/><circle cx="145" cy="155" r="4"/>
+              </g>
+            </svg>
+          </div>
+          <div class="pizza-info">
+            <div class="pizza-heading"><h3>Diavola</h3><span class="price">$19</span></div>
+            <p>Spicy soppressata, fior di latte, calabrian chili oil, oregano.</p>
+          </div>
+        </article>
+
+        <article class="pizza-card">
+          <div class="pizza-plate">
+            <svg viewBox="0 0 240 240" aria-hidden="true">
+              <circle cx="120" cy="120" r="112" fill="#E9DCC3"/>
+              <circle cx="120" cy="120" r="98" fill="#E0A93E"/>
+              <circle cx="120" cy="120" r="90" fill="#C8461A"/>
+              <path d="M120 34 A86 86 0 0 1 206 120 L120 120 Z" fill="#F3E8D2"/>
+              <path d="M206 120 A86 86 0 0 1 120 206 L120 120 Z" fill="#F0D77A"/>
+              <path d="M120 206 A86 86 0 0 1 34 120 L120 120 Z" fill="#EFE0BE"/>
+              <path d="M34 120 A86 86 0 0 1 120 34 L120 120 Z" fill="#E8C15B"/>
+              <g fill="#6B8E4E" opacity="0.7">
+                <circle cx="150" cy="80" r="3"/><circle cx="165" cy="95" r="3"/>
+                <circle cx="90" cy="160" r="3"/><circle cx="105" cy="150" r="3"/>
+              </g>
+            </svg>
+          </div>
+          <div class="pizza-info">
+            <div class="pizza-heading"><h3>Quattro Formaggi</h3><span class="price">$20</span></div>
+            <p>Fontina, gorgonzola, parmesan, mozzarella, black pepper honey.</p>
+          </div>
+        </article>
+
+        <article class="pizza-card">
+          <div class="pizza-plate">
+            <svg viewBox="0 0 240 240" aria-hidden="true">
+              <circle cx="120" cy="120" r="112" fill="#E9DCC3"/>
+              <circle cx="120" cy="120" r="98" fill="#E0A93E"/>
+              <circle cx="120" cy="120" r="90" fill="#C8461A"/>
+              <circle cx="120" cy="120" r="86" fill="#F3E8D2" opacity="0.92"/>
+              <g fill="#6B8E4E">
+                <ellipse cx="90" cy="90" rx="16" ry="9" transform="rotate(25 90 90)"/>
+                <ellipse cx="150" cy="95" rx="16" ry="9" transform="rotate(-15 150 95)"/>
+              </g>
+              <g fill="#B5432E">
+                <circle cx="110" cy="140" r="9"/><circle cx="140" cy="150" r="9"/><circle cx="90" cy="160" r="8"/>
+              </g>
+              <g fill="#E0A93E">
+                <ellipse cx="160" cy="150" rx="10" ry="7"/>
+                <ellipse cx="175" cy="130" rx="10" ry="7"/>
+              </g>
+              <g fill="#7A1F1F" opacity="0.85">
+                <circle cx="70" cy="130" r="6"/><circle cx="80" cy="115" r="6"/>
+              </g>
+            </svg>
+          </div>
+          <div class="pizza-info">
+            <div class="pizza-heading"><h3>Ortolana</h3><span class="price">$18</span></div>
+            <p>Zucchini, roasted pepper, olive, red onion, ricotta, basil.</p>
+          </div>
+        </article>
+
+      </div>
+      <p class="menu-note">Gluten-free dough &amp; oat-milk mozzarella available on any pie, no substitutions on the char.</p>
+    </div>
+    <svg class="crust-divider crust-divider-dark" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,20 Q30,0 60,18 T120,15 T180,25 T240,10 T300,22 T360,8 T420,20 T480,12 T540,24 T600,10 T660,18 T720,6 T780,20 T840,14 T900,26 T960,10 T1020,20 T1080,12 T1140,22 T1200,15 L1200,60 L0,60 Z" fill="#1B1310"/>
+    </svg>
+  </section>
+
+  <!-- STORY -->
+  <section class="story" id="story">
+    <div class="wrap story-inner">
+      <div class="story-copy">
+        <p class="eyebrow">Since 2016</p>
+        <h2 class="section-title">One oven. One family. No compromise on the char.</h2>
+        <p>Forno Rosso started as a single oak-fired oven that Marco Bellini built by hand in his garage, brick by brick, over one winter. Ten years later, the oven is bigger, the dough still rests exactly 48 hours, and the leopard-spotted char on every crust is still the whole point.</p>
+        <p>We buy from three farms within forty miles, mill nothing ourselves, and close the kitchen the moment the dough for tomorrow is ready — not a minute before.</p>
+        <ul class="story-facts">
+          <li><span>48 hr</span>cold ferment, every batch</li>
+          <li><span>3</span>local farms we buy from</li>
+          <li><span>1</span>oven, hand-built in 2016</li>
+        </ul>
+      </div>
+      <div class="story-art" aria-hidden="true">
+        <svg viewBox="0 0 320 320">
+          <circle cx="160" cy="160" r="150" fill="none" stroke="#E0A93E" stroke-width="2" stroke-dasharray="4 10"/>
+          <circle cx="160" cy="160" r="110" fill="#2A1D17"/>
+          <path d="M60 180 Q160 100 260 180" stroke="#E0A93E" stroke-width="3" fill="none"/>
+          <circle cx="160" cy="150" r="46" fill="#C8461A"/>
+          <circle cx="160" cy="150" r="38" fill="#F3E8D2" opacity="0.85"/>
+          <text x="160" y="230" text-anchor="middle" fill="#F3E8D2" font-family="Fraunces, serif" font-size="20" font-style="italic">est. 2016</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="wrap">
+      <p class="eyebrow eyebrow-dark">Word on the street</p>
+      <h2 class="section-title">What the neighborhood says</h2>
+      <div class="testimonial-grid">
+        <figure class="testimonial-card">
+          <blockquote>The crust has actual char on it — not burnt, just properly fired. First place that's tasted like Naples since I got back.</blockquote>
+          <figcaption>— Sarah K., regular since 2019</figcaption>
+        </figure>
+        <figure class="testimonial-card">
+          <blockquote>Ninety seconds sounded like marketing until I watched them pull my pizza out. Blistered, floppy in the middle, exactly right.</blockquote>
+          <figcaption>— Devon R., first-time visitor</figcaption>
+        </figure>
+        <figure class="testimonial-card">
+          <blockquote>Ortolana is the only vegetarian pizza that's ever made me forget I ordered vegetarian on purpose.</blockquote>
+          <figcaption>— Amina T., every Friday</figcaption>
+        </figure>
+      </div>
+    </div>
+    <svg class="crust-divider" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,20 Q30,0 60,18 T120,15 T180,25 T240,10 T300,22 T360,8 T420,20 T480,12 T540,24 T600,10 T660,18 T720,6 T780,20 T840,14 T900,26 T960,10 T1020,20 T1080,12 T1140,22 T1200,15 L1200,60 L0,60 Z" fill="#F3E8D2"/>
+    </svg>
+  </section>
+
+  <!-- ORDER / CONTACT -->
+  <section class="order" id="order">
+    <div class="wrap order-inner">
+      <div>
+        <p class="eyebrow eyebrow-dark">Pickup &amp; catering</p>
+        <h2 class="section-title">Order ahead, skip the line</h2>
+        <p class="section-lead">Tell us what you're after and we'll have it timed to come out of the oven when you walk in. For catering of ten pies or more, give us 48 hours notice.</p>
+        <ul class="order-details">
+          <li><strong>Hours</strong> Tue–Sun, 5pm–10pm · closed Mondays</li>
+          <li><strong>Address</strong> 214 Ember Lane, your city</li>
+          <li><strong>Phone</strong> (555) 019-2245</li>
+        </ul>
+      </div>
+      <form class="order-form" id="orderForm" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name" />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required autocomplete="email" />
+        </div>
+        <div class="form-row">
+          <label for="pizza">Which pie?</label>
+          <select id="pizza" name="pizza">
+            <option>Margherita</option>
+            <option>Diavola</option>
+            <option>Quattro Formaggi</option>
+            <option>Ortolana</option>
+            <option>Not sure yet — surprise me</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="message">Anything else?</label>
+          <textarea id="message" name="message" rows="3" placeholder="Pickup time, allergies, catering size..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send order request</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <a href="#top" class="brand brand-footer">
+      <svg class="brand-mark" viewBox="0 0 60 60" aria-hidden="true">
+        <circle cx="30" cy="30" r="27" fill="#E0A93E"/>
+        <path d="M30 30 L30 4 A26 26 0 0 1 52 17 Z" fill="#C8461A"/>
+      </svg>
+      <span>Forno Rosso</span>
+    </a>
+    <nav class="footer-nav">
+      <a href="#menu">Menu</a>
+      <a href="#story">Our Story</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#order">Order</a>
+    </nav>
+    <p class="footer-copy">&copy; 2026 Forno Rosso. Baked daily on Ember Lane.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
